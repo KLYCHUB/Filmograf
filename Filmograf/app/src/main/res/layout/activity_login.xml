@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222831"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:padding="8dp"
+        android:text="FILMOGRAF"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#00ADB5"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:background="@drawable/edittext_bg"
+        android:paddingStart="16dp"
+        android:textColor="#222831" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_bg"
+        android:paddingStart="16dp"
+        android:textColor="#222831" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="GİRİŞ YAP"
+        android:backgroundTint="#00ADB5"
+        android:textSize="18sp"
+        app:cornerRadius="5dp" />
+
+    <TextView
+        android:id="@+id/signupRedirectText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="KAYDOL"
+        android:textColor="#00ADB5"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
